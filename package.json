@@ -1,0 +1,31 @@
+{
+  "name": "sauce-demo-playwright-invalid-login",
+  "version": "1.0.0",
+  "description": "Sauce Demo Invalid Login ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx playwright test --headed",
+    "dev-ui": "npx playwright test --ui --headed",
+    "test-headless": "npx playwright test",
+    "test-trace": "npx playwright test --trace on",
+    "show-reports": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danxsouza/sauce-demo-playwright-invalid-login.git"
+  },
+  "author": "Danilo Batista de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danxsouza/sauce-demo-playwright-invalid-login/issues"
+  },
+  "homepage": "https://github.com/danxsouza/sauce-demo-playwright-invalid-login#readme",
+  "dependencies": {
+    "npx": "^10.2.2",
+    "playwright": "^1.45.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.0.2"
+  }
+}
