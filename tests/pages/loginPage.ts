@@ -27,11 +27,4 @@ export class LoginPage  {
         await expect(this.MessageError).toHaveText(messages.login[invalidCredentials]);
     }
 
-
-
-
-
-
-
-
 }
