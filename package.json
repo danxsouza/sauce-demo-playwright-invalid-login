@@ -22,7 +22,7 @@
   "homepage": "https://github.com/danxsouza/sauce-demo-playwright-invalid-login#readme",
   "dependencies": {
     "npx": "^10.2.2",
-    "playwright": "^1.45.3"
+    "playwright": "^1.55.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.45.3",
